@@ -8,6 +8,8 @@ const HomePage = ({baseDataStatus, baseData}) => (
 
     <p>It will never fetch unless its data is stale, or it needs to retry to do a failed attempt to fetch</p>
 
+    <p>This entire app with all dependencies and without any tree-shaking is approx 18.5 kbs min + gzip</p>
+
     <h3>Things to try</h3>
     <ul>
       <li class='mb2'>Leave this page open, and watch the log output in the console. The data will be refreshed if its older than one minute.</li>
