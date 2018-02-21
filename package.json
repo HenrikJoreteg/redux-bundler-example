@@ -15,9 +15,6 @@
     "preact-nav-helper": "1.0.0",
     "redux-bundler": "17.0.1",
     "redux-bundler-preact": "1.0.0",
-    "surge": "0.19.0"
-  },
-  "devDependencies": {
     "babel-preset-env": "1.6.1",
     "babel-preset-preact": "1.1.0"
   },
