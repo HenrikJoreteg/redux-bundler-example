@@ -13,9 +13,10 @@
     "babel-preset-env": "1.6.1",
     "babel-preset-preact": "1.1.0",
     "internal-nav-helper": "1.0.1",
+    "money-clip": "2.0.0",
     "parcel-bundler": "1.6.2",
     "preact": "8.2.7",
-    "redux-bundler": "17.1.0",
+    "redux-bundler": "19.0.0",
     "redux-bundler-preact": "1.0.0"
   },
   "prettier": {

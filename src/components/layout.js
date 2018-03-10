@@ -2,7 +2,7 @@ import { h } from 'preact'
 import { connect } from 'redux-bundler-preact'
 import navHelper from 'internal-nav-helper'
 
-const Layout = ({ doUpdateUrl, currentComponent, pathname }) => {
+const Layout = ({ doUpdateUrl, route, pathname }) => {
   const navItems = [
     { url: '/', label: 'Home' },
     { url: '/people', label: 'People List' },
@@ -10,7 +10,7 @@ const Layout = ({ doUpdateUrl, currentComponent, pathname }) => {
     { url: 'https://github.com/henrikjoreteg/redux-bundler', label: 'GitHub' }
   ]
 
-  const Page = currentComponent
+  const Page = route
   return (
     <main
       class="ph3 ph4-ns pt3 bt b--black-10 black-60"
@@ -46,9 +46,4 @@ const Layout = ({ doUpdateUrl, currentComponent, pathname }) => {
   )
 }
 
-export default connect(
-  'selectCurrentComponent',
-  'selectPathname',
-  'doUpdateUrl',
-  Layout
-)
+export default connect('selectRoute', 'selectPathname', 'doUpdateUrl', Layout)
