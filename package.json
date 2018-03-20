@@ -1,5 +1,5 @@
 {
-  "name": "reactive-data-fetching",
+  "name": "redux-bundler-example",
   "version": "1.0.0",
   "description": "example showing how to use redux-bundler for data fetching",
   "main": "index.js",
@@ -12,11 +12,11 @@
   "dependencies": {
     "babel-preset-env": "1.6.1",
     "babel-preset-preact": "1.1.0",
-    "internal-nav-helper": "1.0.1",
+    "internal-nav-helper": "1.0.2",
     "money-clip": "2.0.0",
     "parcel-bundler": "1.6.2",
     "preact": "8.2.7",
-    "redux-bundler": "19.0.0",
+    "redux-bundler": "21.0.0",
     "redux-bundler-preact": "1.0.0"
   },
   "prettier": {
