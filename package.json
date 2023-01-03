@@ -14,7 +14,7 @@
     "babel-preset-preact": "1.1.0",
     "internal-nav-helper": "1.0.2",
     "money-clip": "2.0.0",
-    "parcel-bundler": "1.6.2",
+    "parcel-bundler": "1.12.5",
     "preact": "8.2.7",
     "redux-bundler": "21.0.0",
     "redux-bundler-preact": "1.0.0"
