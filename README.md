@@ -15,3 +15,5 @@ Then open http://localhost:1234
 ## license
 
 [MIT](http://mit.joreteg.com/)
+
+CAN I DEPLOY?
